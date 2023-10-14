@@ -82,6 +82,34 @@ button:active {
     font-size: 1.5rem;
 }
 
+/*Loader*/
+.loader {
+    border: 36px solid #2a03ebdf; 
+    border-top: 36px solid #ffffff; 
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    animation: spin 1s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+
+    50% {
+        border-top: 36px solid yellow;
+    }
+
+    75% {
+        border-top: 36px solid orange;
+    }
+    
+    100% { 
+        transform: rotate(360deg);
+        border-top: 36px solid #ffffff; 
+    }
+
+  }
+
 /* Tablet or smaller devices */
 @media screen and (max-width: 1000px) {
     .quote-container {
