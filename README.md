@@ -1,2 +1,3 @@
 # quotegenerator
-generates inspirational quotes based on API
+The app generates inspirational quotes based on external API.
+Uses css animation for loading spinner
